@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="qlsv:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e89764c-4a6c-4fee-8d29-268b96ed0b32" name="Changes" comment="first commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JspContextManager">
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/src/main/webapp/common/admin/header.jsp" context-file="file://$PROJECT_DIR$/src/main/webapp/decorators/admin.jsp" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Programs\m2\repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Programs/apache-maven-3.9.1" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Pzo1yKqCtRiFw6E3QA4cVVr2yV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/TTCS/qlsv/src/main/webapp/views/web&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;hive&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\TTCS\qlsv\src\main\webapp\views\web" />
+      <recent name="D:\Documents\TTCS\qlsv\src\main\webapp\views\admin" />
+      <recent name="D:\Documents\TTCS\qlsv\src\main\webapp\template\web\assets\img" />
+      <recent name="D:\Documents\TTCS\qlsv\src\main\webapp\template\web" />
+      <recent name="D:\Documents\TTCS\qlsv\src\main\webapp\template" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\TTCS\qlsv\src\main\webapp\views\web" />
+      <recent name="D:\Documents\TTCS\qlsv\src\main\webapp\template\web" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qlsv.controller.web" />
+      <recent name="com.qlsv.controller.admin" />
+      <recent name="com.qlsv.controller.admin.api" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.87" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.87" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
+      <deployment>
+        <artifact name="qlsv:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/qlsv_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="e93b14dc-ee2b-44db-8cae-e1d020772dc4" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="30147" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="qlsv:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e89764c-4a6c-4fee-8d29-268b96ed0b32" name="Changes" comment="" />
+      <created>1684469061191</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684469061191</updated>
+      <workItem from="1684469062819" duration="21623000" />
+      <workItem from="1684494563718" duration="6119000" />
+      <workItem from="1684516620523" duration="111000" />
+      <workItem from="1684638113823" duration="423000" />
+      <workItem from="1684682456976" duration="1347000" />
+      <workItem from="1684717037801" duration="10928000" />
+      <workItem from="1684739826751" duration="7240000" />
+      <workItem from="1684753026640" duration="8964000" />
+      <workItem from="1684805617547" duration="3603000" />
+      <workItem from="1684831742577" duration="3894000" />
+      <workItem from="1684850559850" duration="3552000" />
+      <workItem from="1684895125227" duration="4983000" />
+      <workItem from="1684918935919" duration="3372000" />
+      <workItem from="1684925988137" duration="248000" />
+      <workItem from="1684926818990" duration="613000" />
+      <workItem from="1684931025414" duration="1672000" />
+      <workItem from="1684946390265" duration="547000" />
+      <workItem from="1684946994910" duration="725000" />
+      <workItem from="1685006386074" duration="2473000" />
+      <workItem from="1685029400123" duration="128000" />
+      <workItem from="1685091452944" duration="3645000" />
+      <workItem from="1685102395945" duration="4681000" />
+      <workItem from="1685116810185" duration="11926000" />
+      <workItem from="1685154006544" duration="6992000" />
+      <workItem from="1685176831569" duration="9694000" />
+      <workItem from="1685195871717" duration="18248000" />
+      <workItem from="1685265235411" duration="12300000" />
+      <workItem from="1685288174482" duration="15319000" />
+      <workItem from="1685329381181" duration="4297000" />
+      <workItem from="1685355494612" duration="5677000" />
+      <workItem from="1685372276001" duration="11726000" />
+      <workItem from="1685532061807" duration="6589000" />
+      <workItem from="1685617471223" duration="6329000" />
+      <workItem from="1685624972840" duration="968000" />
+      <workItem from="1685638010769" duration="6369000" />
+      <workItem from="1685669237329" duration="4578000" />
+      <workItem from="1685701763861" duration="8419000" />
+      <workItem from="1685721611166" duration="14135000" />
+      <workItem from="1685757822677" duration="5380000" />
+      <workItem from="1685780208139" duration="17189000" />
+      <workItem from="1685806465384" duration="13266000" />
+      <workItem from="1685844438872" duration="12204000" />
+      <workItem from="1685868134583" duration="13744000" />
+      <workItem from="1685883991473" duration="1800000" />
+      <workItem from="1685887940972" duration="10073000" />
+      <workItem from="1685905191624" duration="102000" />
+      <workItem from="1685919842867" duration="133000" />
+      <workItem from="1685920305790" duration="1171000" />
+      <workItem from="1685965698763" duration="571000" />
+      <workItem from="1685973581106" duration="2449000" />
+      <workItem from="1685984214579" duration="296000" />
+      <workItem from="1685985279091" duration="3231000" />
+      <workItem from="1686030078467" duration="2959000" />
+      <workItem from="1686041876087" duration="677000" />
+      <workItem from="1686044589314" duration="950000" />
+      <workItem from="1686050729090" duration="5121000" />
+      <workItem from="1686139103203" duration="4503000" />
+      <workItem from="1686155461276" duration="3958000" />
+      <workItem from="1686169768533" duration="618000" />
+      <workItem from="1686213678238" duration="7994000" />
+      <workItem from="1686239985968" duration="13301000" />
+      <workItem from="1686277973027" duration="5575000" />
+      <workItem from="1686295828401" duration="8221000" />
+      <workItem from="1686308951521" duration="1511000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1685731431294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685731431294</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.String" memberName="hash" />
+        <PinnedItemInfo parentTag="java.util.PropertyResourceBundle" memberName="name" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
