@@ -34,9 +34,9 @@ public class StudentDAO extends AbstractDAO<StudentModel> implements IStudentDAO
     public void update(StudentModel s) {
         StringBuilder sb;
         sb = new StringBuilder("UPDATE sinhvien SET masv = ?, hoVaTen = ?, gioiTinh = ?,");
-        sb.append("diaChi = ?, ngaySinh = ?, trangThai = ?, idlh = ? WHERE idSV = ?");
+        sb.append("diaChi = ?, ngaySinh = ?, trangThai = ? WHERE idSV = ?");
         update(sb.toString(), s.getCode(), s.getFullname(), s.getGender(), s.getAddress(), s.getDob(),
-                s.getStatus(), s.getClassID(), s.getId());
+                s.getStatus(), s.getId());
     }
 
     @Override

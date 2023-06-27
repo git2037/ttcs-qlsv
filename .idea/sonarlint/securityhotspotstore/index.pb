@@ -25,8 +25,6 @@ i
 9src/main/java/com/qlsv/services/INotificationService.java,6\3\6315756df735320ae5b69147decef2723755fc2d
 ^
 .src/main/webapp/template/web/assets/js/main.js,5\8\58f5c03ca4c762458db2a40c7bcce3363ac409b1
-_
-/src/main/java/com/qlsv/dao/impl/StudentDAO.java,0\0\000191bcd985187162a04fb38848a227a2f659d7
 T
 $src/main/webapp/decorators/admin.jsp,b\6\b61dc981919eda7e49ca4d3cb06ef02aa6bd62a0
 I
@@ -77,8 +75,6 @@ U
 %src/main/webapp/common/web/header.jsp,7\e\7e48d40bfbad431adc50554be3e75782df02cc73
 S
 #src/main/webapp/views/web/login.jsp,b\e\be72e0c5bd64994d0de97dd4be1f45abee72c474
-h
-8src/main/java/com/qlsv/services/impl/AccountService.java,c\c\cc018d36de84c4cf311c214bbab5d865dbcc9a25
 W
 'src/main/webapp/common/admin/header.jsp,0\e\0e5d246f323a2ab5f5ec8095f1aeb8fceaeb105c
 [
@@ -93,8 +89,6 @@ Z
 ,src/main/webapp/views/admin/subject/list.jsp,7\1\71ce464f3d0a6134eaf8d02cc842c017967c6e20
 b
 2src/main/java/com/qlsv/services/IScoreService.java,1\7\1714ab912e914d230497631133e8eeeafd0b7e4a
-\
-,src/main/java/com/qlsv/dao/IAbstractDAO.java,0\5\058eb13b2df027df2d9f30695b4ea5730c3c43ca
 c
 3src/main/java/com/qlsv/mapper/impl/ScoreMapper.java,1\4\148fb33064ad44a6be4eacb76485c19ad2d9abb0
 ]
@@ -123,8 +117,6 @@ i
 9src/main/java/com/qlsv/controller/admin/api/ScoreAPI.java,1\2\12d6e08aa3504e480b24582dd6f0009c01475927
 k
 ;src/main/java/com/qlsv/controller/admin/api/SubjectAPI.java,b\7\b7f2c73bb493409ebc54fd32007083390b247786
-\
-,src/main/webapp/views/admin/student/edit.jsp,9\d\9d2f3dcbd9e366b09f728b7f115399ef647a2a3e
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 k
@@ -143,8 +135,6 @@ Z
 ,src/main/webapp/views/admin/notification.jsp,0\6\06936ec5b43365247b4a2f08167a32419cc2f743
 s
 Csrc/main/java/com/qlsv/controller/admin/NotificationController.java,5\3\53330ac79cae8f4392072b6eb4ba6e6e1c41c949
-Z
-*src/main/webapp/views/admin/class/edit.jsp,a\f\af9469c352aca2ce27ca7758121ccb4e215c6779
 [
 +src/main/webapp/views/admin/course/edit.jsp,3\c\3cbbb737d605b8cbf1cc4d795e68e8c7acad93de
 O

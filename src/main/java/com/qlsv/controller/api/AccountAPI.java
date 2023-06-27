@@ -18,18 +18,6 @@ public class AccountAPI extends HttpServlet {
     private IAccountService accountService;
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) {
-        try {
-            resp.setContentType("application/json");
-            ObjectMapper om = new ObjectMapper();
-            AccountModel accountModel = ApiUtil.getInstance().toModel(req, AccountModel.class);
-            accountService.insert(accountModel);
-            om.writeValue(resp.getOutputStream(), accountModel);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-    @Override
     protected void doPut(HttpServletRequest req, HttpServletResponse resp) {
         try {
             resp.setContentType("application/json");

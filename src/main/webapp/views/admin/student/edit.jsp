@@ -125,27 +125,40 @@
         </div>
     </c:if>
 
-    <div class="mb-3 row">
-        <c:forEach var="item" items="${classList}">
-            <c:if test="${studentModel.classID eq item.id}">
-                <c:set var="className" value="${item.name}"/>
-            </c:if>
-        </c:forEach>
+    <c:forEach var="item" items="${classList}">
+        <c:if test="${studentModel.classID eq item.id}">
+            <c:set var="className" value="${item.name}"/>
+        </c:if>
+    </c:forEach>
 
-        <label class="col-sm-2 col-form-label" for="className">Lớp học</label>
-        <div class="col-sm-10">
-            <input class="form-control" list="datalistOptions1" id="className" value="${className}" placeholder="Gõ để tìm kiếm"
-                   name="className" required>
-            <div class="invalid-feedback">
-                Vui lòng chọn đúng tên lớp học!
+    <c:if test="${not empty studentModel.id}">
+        <div class="mb-3 row">
+            <label class="col-sm-2 col-form-label">Lớp học</label>
+            <div class="col-sm-10">
+                <input type="text" readonly class="form-control-plaintext" name="className"
+                       value="${className}">
             </div>
-            <datalist id="datalistOptions1">
-                <c:forEach var="item" items="${classList}">
-                <option value="${item.name}">
-                    </c:forEach>
-            </datalist>
         </div>
-    </div>
+    </c:if>
+
+    <c:if test="${empty studentModel.id}">
+        <div class="mb-3 row">
+
+            <label class="col-sm-2 col-form-label" for="className">Lớp học</label>
+            <div class="col-sm-10">
+                <input class="form-control" list="datalistOptions1" id="className" placeholder="Gõ để tìm kiếm"
+                       name="className" required>
+                <div class="invalid-feedback">
+                    Vui lòng chọn đúng tên lớp học!
+                </div>
+                <datalist id="datalistOptions1">
+                    <c:forEach var="item" items="${classList}">
+                    <option value="${item.name}">
+                        </c:forEach>
+                </datalist>
+            </div>
+        </div>
+    </c:if>
 
     <input type="hidden" name="id" id="id" value="${studentModel.id}">
 
@@ -227,32 +240,32 @@
         $("#btnSubmit").click(function (event) {
             event.preventDefault();
 
-            var id = $("#id").val();
+            const id = $("#id").val();
 
             const fullnameInput = document.getElementById('fullname');
             const addressInput = document.getElementById('address');
             const dobInput = document.getElementById('dob');
             const classNameInput = document.getElementById('className');
-            const options = document.getElementById('datalistOptions1').getElementsByTagName('option');
-
+            let options;
             const indexRegex = /^\d{1,2}$/;
             const dobRegex = /^\d{4}-\d{2}-\d{2}$/;
 
-            var check = false;
-            var indexInput;
+            let check = false;
+            let indexInput;
+            let isValidClassName = false;
             if (id === ''){
                 indexInput = document.getElementById('stt');
                 check = indexRegex.test(indexInput.value.trim());
+                options = document.getElementById('datalistOptions1').getElementsByTagName('option');
+                for (let i = 0; i < options.length; i++) { // check value className input format
+                    if (classNameInput.value.trim().toUpperCase() === options[i].value) {
+                        isValidClassName = true;
+                        break;
+                    }
+                }
             } else {
                 check = true;
-            }
-
-            let isValidClassName = false;
-            for (let i = 0; i < options.length; i++) { // check value className input format
-                if (classNameInput.value.trim().toUpperCase() === options[i].value) {
-                    isValidClassName = true;
-                    break;
-                }
+                isValidClassName = true;
             }
 
             if (check) { // input stt format correct
@@ -269,7 +282,6 @@
                             dobInput.classList.remove('is-invalid');
 
                             if (isValidClassName) { // input className format correct
-                                classNameInput.classList.remove('is-invalid');
 
                                 const id = $("#id").val();
                                 const gender = $('input[name="gender"]:checked').val();
@@ -289,8 +301,10 @@
                                     } else if (status === '0') {
                                         confirmationText += '\nTình trạng: Đã tốt nghiệp';
                                     }
+                                } else {
+                                    classNameInput.classList.remove('is-invalid');
+                                    confirmationText += '\nLớp học: ' + $('#className').val();
                                 }
-                                confirmationText += '\nLớp học: ' + $('#className').val();
                                 document.getElementById('confirmationText').innerText = confirmationText;
                                 this.setAttribute("data-target", "#staticBackdrop");
                             } else { // input className format incorrect

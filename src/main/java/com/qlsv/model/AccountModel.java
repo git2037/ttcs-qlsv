@@ -3,15 +3,7 @@ package com.qlsv.model;
 public class AccountModel extends AbstractModel {
     private String userName;
     private String password;
-    private String newPassword;
     private int roleID;
-    public String getNewPassword() {
-        return newPassword;
-    }
-
-    public void setNewPassword(String newPassword) {
-        this.newPassword = newPassword;
-    }
 
     public int getRoleID() {
         return roleID;

@@ -4,7 +4,6 @@ public class ClassModel extends AbstractModel{
     private String code;
     private String name;
     private int courseID;
-
     private String courseCode;
 
     public String getCourseCode() {
