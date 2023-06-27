@@ -1138,7 +1138,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>maAD</UnderlyingIndexName>
     </key>
     <column id="323" parent="301" name="idD">
-      <AutoIncrement>3</AutoIncrement>
+      <AutoIncrement>5</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1203,7 +1203,7 @@ idHP</ColNames>
       <UnderlyingIndexName>uc_diem</UnderlyingIndexName>
     </key>
     <column id="337" parent="302" name="idHP">
-      <AutoIncrement>2</AutoIncrement>
+      <AutoIncrement>3</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1240,7 +1240,7 @@ idHP</ColNames>
       <UnderlyingIndexName>maHP</UnderlyingIndexName>
     </key>
     <column id="345" parent="303" name="idKH">
-      <AutoIncrement>9</AutoIncrement>
+      <AutoIncrement>5</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1269,7 +1269,7 @@ idHP</ColNames>
       <UnderlyingIndexName>maKH</UnderlyingIndexName>
     </key>
     <column id="351" parent="304" name="idLH">
-      <AutoIncrement>18</AutoIncrement>
+      <AutoIncrement>4</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1316,7 +1316,7 @@ idHP</ColNames>
       <UnderlyingIndexName>maLH</UnderlyingIndexName>
     </key>
     <column id="361" parent="305" name="idSV">
-      <AutoIncrement>6</AutoIncrement>
+      <AutoIncrement>8</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1398,7 +1398,7 @@ idTK</ColNames>
       <UnderlyingIndexName>uc_sv</UnderlyingIndexName>
     </key>
     <column id="379" parent="306" name="idTK">
-      <AutoIncrement>7</AutoIncrement>
+      <AutoIncrement>10</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
