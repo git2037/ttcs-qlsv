@@ -12,7 +12,9 @@
             <a class="nav-link dropdown-toggle" href="<c:url value="/admin-notification?search=all"/>" id="messagesDropdown">
                 <i class="fas fa-envelope fa-fw"></i>
                 <!-- Counter - Messages -->
-                <span class="badge badge-danger badge-counter">${applicationScope.numberOfNewNotification}</span>
+                <c:if test="${applicationScope.numberOfNewNotification ne 0}" >
+                    <span class="badge badge-danger badge-counter">${applicationScope.numberOfNewNotification}</span>
+                </c:if>
             </a>
         </li>
 
